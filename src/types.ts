@@ -111,8 +111,7 @@ export interface Post {
   full_picture?: string;
   permalink_url?: string;
   shares?: PostShares;
-  type?: string;
-  status_type?: string;
+  // NOTE: 'type' and 'status_type' are deprecated in Graph API v3.3+
   from?: {
     name: string;
     id: string;
