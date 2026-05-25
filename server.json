@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.lanternrow/facebook-pages-mcp",
+  "description": "Facebook Pages organic analytics, post management, and insights via Meta Graph API v25.0.",
+  "repository": {
+    "url": "https://github.com/lanternrow/facebook-pages-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "facebook-pages-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Long-lived Facebook Page Access Token",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "FB_PAGE_ACCESS_TOKEN"
+        },
+        {
+          "description": "Default Facebook Page ID (numeric)",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": false,
+          "name": "FB_PAGE_ID"
+        }
+      ]
+    }
+  ]
+}

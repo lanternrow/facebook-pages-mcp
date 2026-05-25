@@ -1,6 +1,7 @@
 {
   "name": "facebook-pages-mcp",
-  "version": "1.0.0",
+  "mcpName": "io.github.lanternrow/facebook-pages-mcp",
+  "version": "1.0.1",
   "description": "MCP server for Facebook Pages — organic analytics, post management, and insights via Meta Graph API v25.0. Built for Claude Code and other MCP-compatible AI tools.",
   "type": "module",
   "main": "dist/index.js",
