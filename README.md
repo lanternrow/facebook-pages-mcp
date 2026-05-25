@@ -190,4 +190,4 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-Built by [Lantern Row](https://lanternrow.com). Maintained as part of [The SEO Engine](https://github.com/lanternrow) toolkit.
+Built as part of **The SEO Engine** by [Lantern Row](https://lanternrow.com).
